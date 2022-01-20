@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "LihingMan",
   name: "Bryan Lee",
   designation: "Backend Developer",
-  avatarUrl: "/avatar.png",
+  heroImgUrl: "/heroImg.png",
   email: "bryanleee134@gmail.com",
   phone: "+60 109487520",
   address: "Selangor, Malaysia",

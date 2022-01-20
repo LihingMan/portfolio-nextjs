@@ -3,6 +3,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { NextPage } from "next";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 interface ContainerBlockI {
   children?: any;
@@ -63,7 +64,7 @@ const ContainerBlock: FunctionComponent<ContainerBlockI> = ({
       <main className="dark:bg-white-800 w-full">
         <Navbar />
         <div>{children}</div>
-        {/* <Footer/> */}
+        <Footer />
       </main>
     </div>
   );
