@@ -11,14 +11,10 @@ const Footer: FunctionComponent = () => {
             <p>&copy; Bryan Lee. All Rights Reserved.</p>
           </div>
           <div>
-            <p>
-              Developed by
-              <div className="inlin-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
-                <p className="hover:bg-red-500 rounded-md px-2 py-1">
-                  Bryan Lee
-                </p>
-              </div>
-            </p>
+            Developed by
+            <div className="inlin-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
+              <p className="hover:bg-red-500 rounded-md px-2 py-1">Bryan Lee</p>
+            </div>
           </div>
           <div className="space-x-4 flex flex-row items-center">
             <a
