@@ -13,7 +13,9 @@ const Footer: FunctionComponent = () => {
           <div>
             Developed by
             <div className="inlin-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
-              <p className="hover:bg-red-500 rounded-md px-2 py-1">Bryan Lee</p>
+              <p className="hover:bg-red-500 rounded-md px-2 py-1 cursor-pointer select-none">
+                Bryan Lee
+              </p>
             </div>
           </div>
           <div className="space-x-4 flex flex-row items-center">

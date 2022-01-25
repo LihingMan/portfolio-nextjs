@@ -3,6 +3,8 @@ const userData = {
   name: "Bryan Lee",
   designation: "Backend Developer",
   heroImgUrl: "/heroImg.png",
+  egg: "/egg.jpg",
+  ezbo: "/ezbo.png",
   email: "bryanleee134@gmail.com",
   phone: "+60 109487520",
   address: "Selangor, Malaysia",
