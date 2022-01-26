@@ -32,7 +32,8 @@ const ContainerBlock: FunctionComponent<ContainerBlockI> = ({
 
   const meta: MetaI = {
     title: "Bryan Lee",
-    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
+    description:
+      "I am an experienced backend developer fluent in creating performant server side applications in Django and Node.js",
     image: "/avatar.png",
     type: "website",
     date: "25-01-2022",

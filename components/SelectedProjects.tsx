@@ -42,7 +42,7 @@ const SelectedProjects: FunctionComponent = () => {
               src={userData.ezbo}
               alt="web"
               className="transform hover:scale-125 transition duration-2000 ease-out mx-auto w-1/2 pt-5 pb-5"
-            ></img>
+            />
             <h1 className="left-10 text-gray-400 text-lg pl-5 pb-5">01</h1>
           </div>
         </a>

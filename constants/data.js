@@ -14,6 +14,15 @@ const userData = {
     github: "https://github.com/LihingMan",
     linkedin: "https://www.linkedin.com/in/hsiu-wei-lee-bryan-1256571ab/",
   },
+  about: {
+    title:
+      "I'm a software developer developerdeveloper developer developer developer developer developer developer developer developer developer developer",
+    description: [
+      "I am a software developer developer developer",
+      "Django bla bla developer developer developer developer",
+      "Deez nuts developer developer developer developer",
+    ],
+  },
 };
 
 export default userData;
