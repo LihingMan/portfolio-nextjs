@@ -14,10 +14,7 @@ const AboutMe: FunctionComponent = () => {
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p className="leading-loose text-2xl md:text-4xl font-semibold mx-4">
-            I am a backend developer with industry experience building websites
-            and web applications. I specialise in Python and JavaScript,
-            particularly with the Django and Node.js frameworks coupled with
-            MongoDB or PostgreSQL.
+            {userData.about.main}
           </p>
         </div>
       </div>

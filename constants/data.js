@@ -15,6 +15,7 @@ const userData = {
     linkedin: "https://www.linkedin.com/in/hsiu-wei-lee-bryan-1256571ab/",
   },
   about: {
+    main: "I am a backend developer with industry experience building websites and web applications. I specialise in Python and JavaScript, particularly with the Django and Node.js frameworks coupled with MongoDB or PostgreSQL.",
     title:
       "I'm a software developer developerdeveloper developer developer developer developer developer developer developer developer developer developer",
     description: [
