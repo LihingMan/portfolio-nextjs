@@ -69,12 +69,12 @@ const AboutMe: FunctionComponent = () => {
             </p>
 
             {/* Tech stack */}
-            <div className="inline-block pt-10">
+            <div className="inline-block pt-28">
               <h1 className="text-gray-50 text-xl md:text-3xl font-bold rounded-md px-2 py-1 bg-red-500">
                 Tech Stack
               </h1>
             </div>
-            <div className="pt-5 flex flex-row flex-wrap mt-5">
+            <div className="pt-1 flex flex-row flex-wrap mt-5">
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="w-20 h-20 mx-4 my-4"
@@ -117,6 +117,23 @@ const AboutMe: FunctionComponent = () => {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="w-20 h-20 mx-4 my-4"
               />
+            </div>
+
+            <div className="pt-10">
+              <h1 className="text-xl font-bold text-gray-700 dark:text-gray-200">
+                About this website
+              </h1>
+              <p className="pt-5 text-gray-700 dark:text-gray-200">
+                This website is powered by{" "}
+                <a href="https://nextjs.org/" className="font-bold underline">
+                  Next
+                </a>{" "}
+                and hosted on{" "}
+                <a href="https://vercel.com/" className="font-bold underline">
+                  Vercel
+                </a>
+                .
+              </p>
             </div>
           </div>
         </div>
