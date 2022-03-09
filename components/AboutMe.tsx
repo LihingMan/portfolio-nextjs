@@ -56,9 +56,6 @@ const AboutMe: FunctionComponent = () => {
           <div className="col-span-1 md:col-span-2">
             {/* Description area */}
             <p className="text-xl text-gray-700 mb-4 dark:text-gray-300">
-              {userData.about.title}
-            </p>
-            <p className="text-xl text-gray-700 mb-4 dark:text-gray-300">
               {userData.about.description[0]}
             </p>
             <p className="text-xl text-gray-700 mb-4 dark:text-gray-300">

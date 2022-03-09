@@ -8,11 +8,11 @@ const SelectedProjects: FunctionComponent = () => {
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
           <h1 className="pb-10 text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
-            Selected Projects
+            Projects
           </h1>
           {/* View All button */}
-          <Link href="/projects">
-            <a className="hidden md:flex mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
+          <Link href="https://github.com/LihingMan">
+            <a className="md:flex mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -33,6 +33,7 @@ const SelectedProjects: FunctionComponent = () => {
           </Link>
         </header>
         {/* Project Card */}
+        {/* Ezbo */}
         <a href="https://github.com/LihingMan/cube-configurator">
           <div className="bg-gray-900 dark:bg-[#000000] relative overflow-hidden">
             <h1 className="pl-5 pt-5 text-gray-50 font-bold px-2">
@@ -44,6 +45,20 @@ const SelectedProjects: FunctionComponent = () => {
               className="transform hover:scale-125 transition duration-2000 ease-out mx-auto w-1/2 pt-5 pb-5"
             />
             <h1 className="left-10 text-gray-400 text-lg pl-5 pb-5">01</h1>
+          </div>
+        </a>
+        {/* IC Reader */}
+        <a href="https://github.com/LihingMan/websocket_ic_reader">
+          <div className="bg-gray-900 dark:bg-[#000000] relative overflow-hidden mt-10">
+            <h1 className="pl-5 pt-5 text-gray-50 font-bold px-2">
+              Websocket IC Reader
+            </h1>
+            <img
+              src={userData.ic_reader}
+              alt="web"
+              className="transform hover:scale-125 transition duration-2000 ease-out mx-auto w-1/4 pt-5 pb-5"
+            />
+            <h1 className="left-10 text-gray-400 text-lg pl-5 pb-5">02</h1>
           </div>
         </a>
       </div>

@@ -7,13 +7,13 @@ const Hero: FunctionComponent = () => {
       {/* Text div */}
       <div className="w-full mx-auto text-center md:text-left md:w-1/2 lg:p-20">
         <h1 className="text-4xl md:text-9xl font-bold text-gray-700 dark:text-gray-200">
-          Deez.
+          Developer.
         </h1>
         <h1 className="text-4xl md:text-9xl font-bold text-gray-700 dark:text-gray-200 my-2">
-          Deez.
+          Brewer.
         </h1>
         <h1 className="text-4xl md:text-9xl font-bold text-gray-700 dark:text-gray-200 my-2">
-          Deez.
+          Gamer.
         </h1>
       </div>
 

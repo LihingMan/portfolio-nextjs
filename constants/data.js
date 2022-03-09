@@ -5,6 +5,7 @@ const userData = {
   heroImgUrl: "/heroImg.png",
   egg: "/egg.jpg",
   ezbo: "/ezbo.png",
+  ic_reader: "/smart_card.png",
   email: "bryanleee134@gmail.com",
   phone: "+60 109487520",
   address: "Selangor, Malaysia",
@@ -16,12 +17,10 @@ const userData = {
   },
   about: {
     main: "I am a backend developer with industry experience building websites and web applications. I specialise in Python and JavaScript, particularly with the Django and Node.js frameworks coupled with MongoDB or PostgreSQL.",
-    title:
-      "I'm a software developer developerdeveloper developer developer developer developer developer developer developer developer developer developer",
     description: [
-      "I am a software developer developer developer",
-      "Django bla bla developer developer developer developer",
-      "Deez nuts developer developer developer developer",
+      "I've been spending the last year working professionally in the software industry whilst also pursuing personal projects. This has led me to become a confident web developer able to create programs that can be used by the masses. A big portion of my work involves creating robust, scalable and efficient server-side applications to provide the users with the best possible experience.",
+      "My tech stack mainly comprises of Django or any Node.js framework together with PostgreSQL for relational databases or MongoDB for non-relational databases.",
+      "In my free time, I make brewing Sabahan rice wine my hobby (which hopefully becomes a future venture).",
     ],
   },
   experience: [
