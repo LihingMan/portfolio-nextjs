@@ -20,7 +20,7 @@ const Hero: FunctionComponent = () => {
       {/* Image div */}
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-2/3">
-          <img src={userData.egg} alt="heroimg" className="shadow" />
+          <img src={userData.heroImgUrl} alt="heroimg" className="shadow" />
           <div className="flex flex-row justify-between mt-4">
             <p className="font-sans text-xl">↑ Saya tu kio</p>
           </div>

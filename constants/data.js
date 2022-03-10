@@ -20,7 +20,7 @@ const userData = {
     description: [
       "I've been spending the last year working professionally in the software industry whilst also pursuing personal projects. This has led me to become a confident web developer able to create programs that can be used by the masses. A big portion of my work involves creating robust, scalable and efficient server-side applications to provide the users with the best possible experience.",
       "My tech stack mainly comprises of Django or any Node.js framework together with PostgreSQL for relational databases or MongoDB for non-relational databases.",
-      "In my free time, I make brewing Sabahan rice wine my hobby (which hopefully becomes a future venture).",
+      "In my free time, I make Sabahan rice wine (called Lihing).",
     ],
   },
   experience: [
@@ -29,7 +29,14 @@ const userData = {
       company: "Axflix Technologies Sdn. Bhd.",
       year: "2021 - 2022",
       companyLink: "https://www.axflix.com/",
-      desc: "Worked on the backend for multiple projects using Node.js (Express.js) and Django. I've worked on a school management system (DirectEdu) and also a consolidation accounting system for companies",
+      desc: "Worked on the backend for multiple projects using Node.js (Express.js) and Django. I've worked on a school management system (DirectEdu) and also a consolidation accounting system for companies. Besides that, I have worked with Bjak to develop their bjak.sg MVP.",
+    },
+    {
+      title: "Backend Developer",
+      company: "Monash University Malaysia - (Caring Pharmacy)",
+      year: "2021 - 2021",
+      companyLink: "https://www.monash.edu.my/",
+      desc: "Developed a mobile application for pre-diabetic patients to upload their daily readings (glucometer, weight, fitness band data) and be flagged for potential risks.",
     },
     {
       title: "Backend Developer",
@@ -57,7 +64,7 @@ const userData = {
       company: "Monash University Malaysia",
       year: "2016 - 2020",
       companyLink: "",
-      desc: "Bachelor of Software Engineering (Honours)",
+      desc: "Bachelor of Software Engineering (Honours).",
     },
   ],
 };
