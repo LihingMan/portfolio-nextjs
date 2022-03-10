@@ -80,7 +80,7 @@ const Navbar: FunctionComponent = () => {
               )}
             </a>
           </Link>
-          <Link href="/contact">
+          {/* <Link href="/contact">
             <a
               className={`text-base  ${
                 router.asPath === "/contact"
@@ -105,7 +105,7 @@ const Navbar: FunctionComponent = () => {
                 </svg>
               )}
             </a>
-          </Link>
+          </Link> */}
         </div>
 
         <div className="space-x-4 flex flex-row items-center">
