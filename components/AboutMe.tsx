@@ -43,7 +43,7 @@ const AboutMe: FunctionComponent = () => {
               </h1>
               <p className="pt-5 text-gray-700 dark:text-gray-200">
                 Current I am open to new job opportunities in backend
-                development. Take a look at my{" "}
+                development / software engineering. Take a look at my{" "}
                 <a href={userData.resumeUrl} className="font-bold underline">
                   CV
                 </a>{" "}
